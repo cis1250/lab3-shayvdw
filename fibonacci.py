@@ -17,7 +17,7 @@ def main():
   total = 0
   previous_term = 1
   current_term = 1
-  # iterate terms 1..fib (range is 1-based here)
+  
   for i in range(1, fib + 1):
     if i == 1 or i == 2:
       print(1)
